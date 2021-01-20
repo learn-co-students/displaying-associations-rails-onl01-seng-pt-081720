@@ -4,6 +4,7 @@ class CategoriesController < ApplicationController
   end
 
   def show
+    # byebug
     @category = Category.find(params[:id])
   end
 
